@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>RK • Sociedade de Crédito ao Microempreendedor</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Sociedade de crédito ao microempreendedor PJ, antecipação de boletos e nota fiscal, cobrança com linguagem profissional e transparente." />
+
+  <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#inicio" class="skip-link">Ir para o conteúdo principal</a>
+
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__logo-wrap">
+          <img src="favicon.jpg" alt="RK" class="brand__logo" />
+        </span>
+        <span class="brand__text">RK Factoring</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#como-funciona">Como funciona</a></li>
+          <li><a class="nav__link" href="#solucoes">Soluções</a></li>
+          <li><a class="nav__link" href="#faq">Dúvidas</a></li>
+          <li><a class="nav__link nav__link--primary" href="#contato">Solicitar análise</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+        <span class="nav-toggle__icon">
+          <span></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-overlay" data-nav-overlay hidden></div>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="section hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content" data-reveal>
+          <p class="eyebrow">Sociedade de crédito ao microempreendedor • Somente PJ</p>
+          <h1 id="hero-title">Antecipe boletos e notas fiscais com clareza, agilidade e linguagem empresarial.</h1>
+          <p class="lead">
+            Avaliamos o cenário da sua empresa com responsabilidade, comunicação direta e retorno assim que possível. Atendimento físico e digital, com base em São Paulo (SP).
+          </p>
+          <div class="section__cta">
+            <a href="#contato" class="btn btn--primary btn--lg">
+              Solicitar análise agora
+            </a>
+            <button type="button" class="btn btn--ghost" data-scroll="#como-funciona">
+              Ver como funciona
+            </button>
+          </div>
+          <ul class="hero__bullets">
+            <li>Foco em microempreendedor PJ</li>
+            <li>Boletos e Nota Fiscal</li>
+            <li>Condições sob análise e comunicação transparente</li>
+          </ul>
+        </div>
+
+        <div class="hero__aside" data-reveal>
+          <div class="hero-card hero-card--main">
+            <div class="hero-card__header">
+              <span class="hero-chip">Simulação em minutos*</span>
+              <h2>Fluxo de caixa mais previsível</h2>
+              <p class="muted">Você informa os recebíveis; nós avaliamos e retornamos com os próximos passos.</p>
+            </div>
+            <div class="hero-card__body">
+              <div class="hero-metrics">
+                <div class="metric">
+                  <span class="metric__label">Ticket médio analisado</span>
+                  <span class="metric__value">R$ 10k–250k</span>
+                  <span class="metric__hint">Variável conforme o cenário.</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__label">Prazo de resposta</span>
+                  <span class="metric__value">A partir de 24h</span>
+                  <span class="metric__hint">Conforme volume e documentação.</span>
+                </div>
+              </div>
+              <p class="hero-note">
+                *Simulação sem compromisso, condições sob análise e sujeitas a aprovação.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section section--alt" aria-labelledby="como-title">
+      <div class="container">
+        <header class="section__header" data-reveal>
+          <p class="eyebrow">Processo em 4 etapas claras</p>
+          <h2 id="como-title">Do envio dos dados à antecipação, com linguagem empresarial e objetiva.</h2>
+          <p class="section__subtitle">
+            Mantemos você informado em cada etapa. Se aprovado, seguimos com os passos acordados de forma segura e transparente.
+          </p>
+        </header>
+
+        <div class="steps-grid">
+          <article class="step-card" data-reveal>
+            <span class="step-card__badge">1</span>
+            <h3>Envio das informações</h3>
+            <p>Você preenche o formulário com os dados da empresa e dos recebíveis (boletos e notas fiscais).</p>
+            <p class="step-card__meta">Somente PJ • Dados enviados por canal seguro.</p>
+          </article>
+
+          <article class="step-card" data-reveal>
+            <span class="step-card__badge">2</span>
+            <h3>Análise responsável</h3>
+            <p>Avaliamos o perfil da empresa, histórico e os documentos enviados, sempre com visão de longo prazo.</p>
+            <p class="step-card__meta">Condições sob análise • Triagem objetiva.</p>
+          </article>
+
+          <article class="step-card" data-reveal>
+            <span class="step-card__badge">3</span>
+            <h3>Proposta e próximos passos</h3>
+            <p>Apresentamos as possibilidades, explicando taxas, prazos e fluxo de forma direta e sem termos confusos.</p>
+            <p class="step-card__meta">Comunicação clara • Linguagem empresarial.</p>
+          </article>
+
+          <article class="step-card" data-reveal>
+            <span class="step-card__badge">4</span>
+            <h3>Formalização e acompanhamento</h3>
+            <p>Se aprovado, seguimos com a formalização e acompanhamento, mantendo contato próximo com você.</p>
+            <p class="step-card__meta">Atendimento físico e digital • Combinado por contrato.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUÇÕES -->
+    <section id="solucoes" class="section" aria-labelledby="solucoes-title">
+      <div class="container">
+        <header class="section__header" data-reveal>
+          <p class="eyebrow">Para microempreendedores PJ</p>
+          <h2 id="solucoes-title">Soluções focadas em fluxo de caixa, recebíveis e cobrança profissional.</h2>
+        </header>
+
+        <div class="solutions-grid">
+          <article class="solution-card" data-reveal>
+            <div class="solution-card__header">
+              <span class="solution-chip">Sociedade de crédito</span>
+              <h3>Sociedade de crédito ao microempreendedor</h3>
+            </div>
+            <p class="solution-card__body">
+              Estruturada para empresas PJ que precisam de análise responsável, comunicação direta e clareza na antecipação de recebíveis.
+            </p>
+            <ul class="solution-card__list">
+              <li>Atendimento físico e digital em São Paulo (SP).</li>
+              <li>Foco em microempreendedor PJ.</li>
+              <li>Condições sempre sob análise e comunicadas com transparência.</li>
+            </ul>
+            <footer class="solution-card__footer">
+              <span class="solution-hint">Ideal para quem quer previsibilidade de caixa.</span>
+            </footer>
+          </article>
+
+          <article class="solution-card" data-reveal>
+            <div class="solution-card__header">
+              <span class="solution-chip">Antecipação</span>
+              <h3>Antecipação de boletos e nota fiscal</h3>
+            </div>
+            <p class="solution-card__body">
+              Avaliação da possibilidade de antecipar boletos e notas fiscais, apoiando a organização do fluxo financeiro da empresa.
+            </p>
+            <ul class="solution-card__list">
+              <li>Análise de boletos e notas fiscais conforme cenário.</li>
+              <li>Retorno assim que possível, com condições claras.</li>
+              <li>Processo direto, sem etapas desnecessárias.</li>
+            </ul>
+            <footer class="solution-card__footer">
+              <span class="solution-hint">Para empresas com recebíveis recorrentes.</span>
+            </footer>
+          </article>
+
+          <article class="solution-card" data-reveal>
+            <div class="solution-card__header">
+              <span class="solution-chip">Cobrança</span>
+              <h3>Cobrança com linguagem profissional</h3>
+            </div>
+            <p class="solution-card__body">
+              Cobrança estruturada com abordagem objetiva, preservando o relacionamento com o cliente e a imagem da sua empresa.
+            </p>
+            <ul class="solution-card__list">
+              <li>Abordagem clara, sem termos agressivos ou confusos.</li>
+              <li>Comunicação alinhada ao perfil do seu negócio.</li>
+              <li>Organização de prazos e registros de contato.</li>
+            </ul>
+            <footer class="solution-card__footer">
+              <span class="solution-hint">Para empresas que buscam cobrança profissionalizada.</span>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--alt" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section__header" data-reveal>
+          <p class="eyebrow">Perguntas frequentes</p>
+          <h2 id="faq-title">Dúvidas rápidas sobre atendimento, perfil e condições.</h2>
+          <p class="section__subtitle">Se algo não estiver claro, você pode enviar sua dúvida junto com o formulário.</p>
+        </header>
+
+        <div class="accordion" data-reveal>
+          <article class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="faq-1-panel" id="faq-1">
+                Atendem pessoa física ou apenas PJ?
+              </button>
+            </h3>
+            <div class="accordion-panel" id="faq-1-panel" role="region" aria-labelledby="faq-1" hidden>
+              <p>Atendemos apenas empresas PJ. Todo o processo, documentação e linguagem são voltados para negócios.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="faq-2-panel" id="faq-2">
+                Quais tipos de recebíveis podem ser avaliados?
+              </button>
+            </h3>
+            <div class="accordion-panel" id="faq-2-panel" role="region" aria-labelledby="faq-2" hidden>
+              <p>Avaliamos principalmente boletos e notas fiscais, sempre conforme o cenário da empresa.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="faq-3-panel" id="faq-3">
+                As condições são fixas ou variam?
+              </button>
+            </h3>
+            <div class="accordion-panel" id="faq-3-panel" role="region" aria-labelledby="faq-3" hidden>
+              <p>As condições são sob análise e variam de acordo com documentação, perfil, histórico e volume envolvido.</p>
+            </div>
+          </article>
+
+          <article class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="faq-4-panel" id="faq-4">
+                O atendimento é apenas digital?
+              </button>
+            </h3>
+            <div class="accordion-panel" id="faq-4-panel" role="region" aria-labelledby="faq-4" hidden>
+              <p>O atendimento é físico e digital, com base em São Paulo (SP), conforme a necessidade e o acordo com a empresa.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section" aria-labelledby="contato-title">
+      <div class="container contato__grid">
+        <div class="contato__copy" data-reveal>
+          <p class="eyebrow">Solicitar análise</p>
+          <h2 id="contato-title">Envie os dados da sua empresa e dos recebíveis.</h2>
+          <p class="section__subtitle">
+            As informações abaixo ajudam a entender o cenário do seu negócio. Retornamos assim que possível com os próximos passos.
+          </p>
+          <ul class="contato__bullets">
+            <li>Somente PJ.</li>
+            <li>Boletos e Nota Fiscal.</li>
+            <li>Condições sob análise.</li>
+          </ul>
+          <p class="muted contato__legal">
+            Empresa fundada em 15/07/2024, com base em São Paulo (SP). Atendimento físico e digital, sempre com comunicação transparente.
+          </p>
+        </div>
+
+        <div class="contato__form-wrap" data-reveal>
+          <form id="contatoForm" class="card-form" novalidate>
+            <div class="card-form__header">
+              <h3>Dados da empresa</h3>
+              <p class="muted">Preencha com atenção. Atendemos somente PJ e as condições são sob análise.</p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="razaoSocial">Razão social</label>
+              <input id="razaoSocial" name="razaoSocial" type="text" autocomplete="organization" required />
+              <p class="field-error" data-error-for="razaoSocial"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="cnpj">CNPJ</label>
+              <input id="cnpj" name="cnpj" type="text" inputmode="numeric" required />
+              <p class="field-error" data-error-for="cnpj"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="contatoNome">Nome de contato</label>
+              <input id="contatoNome" name="contatoNome" type="text" autocomplete="name" required />
+              <p class="field-error" data-error-for="contatoNome"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="whatsapp">WhatsApp</label>
+              <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required />
+              <p class="field-error" data-error-for="whatsapp"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+              <p class="field-error" data-error-for="email"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="tipoRecebivel">Tipo de recebível</label>
+              <select id="tipoRecebivel" name="tipoRecebivel" required>
+                <option value="">Selecione</option>
+                <option value="boletos">Boletos</option>
+                <option value="nota-fiscal">Nota fiscal</option>
+                <option value="ambos">Boletos e nota fiscal</option>
+              </select>
+              <p class="field-error" data-error-for="tipoRecebivel"></p>
+            </div>
+
+            <div class="card-form__group">
+              <label for="comentarios">Contexto do pedido</label>
+              <textarea id="comentarios" name="comentarios" rows="3" placeholder="Explique brevemente o cenário da empresa e o objetivo da antecipação."></textarea>
+            </div>
+
+            <div class="card-form__footer">
+              <button type="submit" class="btn btn--primary btn--full">
+                Enviar para análise
+              </button>
+              <p class="form-status" aria-live="polite"></p>
+              <p class="muted form-legal">
+                Ao enviar, você declara estar de acordo com a análise das informações fornecidas. Condições sob análise e sujeitas à aprovação.
+              </p>
+              <button type="button" class="link-inline" data-open-privacy>
+                Ver política de privacidade
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CTA BAR MOBILE -->
+  <aside class="cta-bar" data-cta-bar>
+    <div class="cta-bar__inner">
+      <div class="cta-bar__copy">
+        <span>Pronto para solicitar análise?</span>
+        <small>Somente PJ • Boletos e Nota Fiscal</small>
+      </div>
+      <a href="#contato" class="btn btn--primary btn--sm">Enviar dados</a>
+    </div>
+  </aside>
+
+  <!-- MODAL PRIVACIDADE -->
+  <div class="modal" id="privacyModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel">
+      <header class="modal__header">
+        <h2 id="privacy-title">Política de privacidade</h2>
+        <button type="button" class="modal__close" aria-label="Fechar" data-close-modal>✕</button>
+      </header>
+      <div class="modal__body">
+        <p>
+          As informações enviadas são utilizadas exclusivamente para análise do cenário da sua empresa e eventual oferta de soluções de crédito, antecipação de recebíveis e cobrança.
+        </p>
+        <p>
+          Os dados podem ser armazenados para fins de registro, contato e cumprimento de obrigações legais. Não compartilhamos suas informações com terceiros sem base legal ou contratual.
+        </p>
+        <p>
+          Em caso de dúvidas, solicitação de atualização ou exclusão de dados, entre em contato pelos nossos canais oficiais.
+        </p>
+      </div>
+      <footer class="modal__footer">
+        <button type="button" class="btn btn--ghost" data-close-modal>Fechar</button>
+      </footer>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="favicon.jpg" alt="RK" class="footer__logo" />
+        <p class="muted">
+          RK Factoring • Sociedade de crédito ao microempreendedor com atendimento físico e digital, base em São Paulo (SP). Somente PJ. Condições sob análise.
+        </p>
+      </div>
+      <div class="footer__meta">
+        <p class="muted">© <span id="year"></span> RK Factoring. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="progress" data-progress></div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('[data-scroll]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-scroll').replace('#','');
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+</body>
+</html>
